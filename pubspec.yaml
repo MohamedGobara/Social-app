@@ -1,0 +1,115 @@
+name: sochial_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences:
+  bloc:
+  intl:
+  sqflite:
+  dots_indicator:
+  dio:
+  flutter_bloc:
+  toast:
+  fluttertoast: ^8.0.8
+  carousel_slider:
+  conditional_builder:
+  provider:
+  firebase_core:
+  firebase_auth: "^0.20.1"
+  cloud_firestore: "^0.16.0+1"
+  curved_navigation_bar: ^1.0.1
+  image_picker:
+  custom_splash: ^0.0.2
+  firebase_storage: "^7.0.0"
+  shimmer:
+  flutter_slidable:
+
+
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - lib/my_images/photo_2021-07-03_21-04-52.jpg
+   - lib/my_images/17techhearing-facebookpreview-mediumSquareAt3X.jpg
+   - lib/my_images/undraw_Notify_re_65on.png
+   - lib/my_images/—Pngtree—social network_5413579.png
+   - lib/my_images/undraw_Login_re_4vu2.png
+   - lib/my_images/sign_up.png
+   - lib/my_images/blank-profile-picture-973460_640.png
+   - lib/my_images/template.jpg
+   - lib/my_images/undraw_not_found_60pq.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: lib/fonts/PlayfairDisplay-Black.otf
+        - asset: lib/fonts/PlayfairDisplay-BlackItalic.otf
+        - asset: lib/fonts/PlayfairDisplay-BoldItalic.otf
+        - asset: lib/fonts/PlayfairDisplay-Bold.otf
+        - asset: lib/fonts/PlayfairDisplay-Italic.otf
+        - asset: lib/fonts/PlayfairDisplaySC-Regular.otf
+    - family: MyIcons
+      fonts:
+        - asset: lib/icons/my_icons.ttf
+    - family: MyFlutterApp
+      fonts:
+        - asset: lib/icons/MyFlutterApp.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
